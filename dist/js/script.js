@@ -12,9 +12,9 @@ window.onscroll = function () {
 }
 window.onscroll = function () {
     const header = document.querySelector('header');
-    const fixedNav = header.offsetTop;
+    const fixedNavbar = header.offsetTop;
 
-    if (window.pageYOffset > fixedNav) {
+    if (window.pageYOffset > fixedNavbar) {
         header.classList.add('navbar-fixed-coffee');
     } else {
         header.classList.remove('navbar-fixed-coffee')
